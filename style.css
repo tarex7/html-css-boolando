@@ -131,6 +131,10 @@ img {
   left: 65px;
 }
 
+.left {
+    left: 0;
+}
+
 .fav {
   position: absolute;
   width: 50px;
