@@ -25,6 +25,7 @@ header {
 header a {
   color: #fff;
   font-weight: bold;
+  transition: all ease 0.5s;
 }
 
 a {
@@ -48,6 +49,7 @@ h4 {
 
 #logo {
   height: 30px;
+  transition: all ease 0.3s;
 }
 
 img {
@@ -96,11 +98,10 @@ img {
   margin-top: 50px;
 }
 
-
-
 .img-top {
   transition: all ease-in-out 0.5s;
   opacity: 0;
+  cursor: pointer;
 }
 
 .img-top:hover {
@@ -132,7 +133,7 @@ img {
 }
 
 .left {
-    left: 0;
+  left: 0;
 }
 
 .fav {
@@ -144,4 +145,22 @@ img {
   background-color: #fff;
   text-align: center;
   line-height: 50px;
+}
+
+.fa-heart {
+  transition: all ease 0.5s;
+}
+
+.fa-heart:hover {
+  color: red;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+header a:hover {
+  color: #1a7caa;
+}
+
+#logo:hover {
+  transform: scale(1.1);
 }
