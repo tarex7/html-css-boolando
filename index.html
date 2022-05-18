@@ -1,16 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Boolando</title>
     <!-- Font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="d-flex" id="navbar">
+          <!-- Genres -->
+          <div class="genres">
+            <ul class="d-flex">
+              <li><a class="mr-10" href="#">Donna</a></li>
+              <li><a class="mr-10" href="#">Uomo</a></li>
+              <li><a href="#">Bambino</a></li>
+            </ul>
+          </div>
+
+          <!-- Logo -->
+          <div class="logo">
+            <a href="#">
+              <img src="./img/boolean-logo.png" alt="logo" id="logo" />
+            </a>
+          </div>
+
+          <!-- User -->
+          <div class="user">
+            <a href="#"><i class="fa-solid fa-user"></i></a>
+            <a href="#"><i class="fa-solid fa-heart ml-10"></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping ml-10"></i></a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <div class="container mt-50">
+        <div class="row mt-50 d-flex">
+          <div class="col mx-10 ">
+            <img class="img-bottom" src="./img/1.webp" alt="" />
+            <img class="img-top" src="./img/1b.webp" alt="" />
+
+            Levi's
+            <h4>Relaxed fit tee unisex</h4>
+            <span class="red">14,99 €</span> <del>29,99 €</del>
+
+            <span class="label discount">-50%</span>
+            <span class="label sustain">Sostenibilità</span>
+            <span class="fav"><i class="fa-solid fa-lg fa-heart"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

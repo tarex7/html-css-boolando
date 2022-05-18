@@ -7,5 +7,137 @@
 }
 
 body {
-    font-family: serif;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 70px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #ff6900;
+  color: #fff;
+  z-index: 2;
+}
+
+header a {
+  color: #fff;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h4 {
+  text-transform: uppercase;
+  margin: 2px 0;
+}
+
+#navbar {
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  height: 30px;
+}
+
+img {
+  width: 100%;
+}
+
+/* Utils */
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.debug {
+  border: 1px red solid;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.col {
+  width: calc(100% / 3);
+  position: relative;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+/* Margin */
+
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mx-10 {
+  margin: 0 10px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+
+
+.img-top {
+  transition: all ease-in-out 0.5s;
+  opacity: 0;
+}
+
+.img-top:hover {
+  opacity: 1;
+}
+
+.img-bottom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.label {
+  color: #fff;
+  padding: 5px 10px;
+  bottom: 100px;
+  position: absolute;
+}
+
+.discount {
+  background-color: red;
+  left: 0;
+}
+
+.sustain {
+  background-color: green;
+  left: 65px;
+}
+
+.fav {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 10px;
+  right: 0;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
 }
