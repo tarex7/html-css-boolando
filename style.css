@@ -20,16 +20,20 @@ header {
   background-color: #ff6900;
   color: #fff;
   z-index: 2;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.4);
+
 }
 
 header a {
   color: #fff;
   font-weight: bold;
   transition: all ease 0.5s;
+  
 }
 
 a {
   text-decoration: none;
+  transition: all ease .5s;
 }
 
 li {
@@ -71,6 +75,14 @@ img {
   display: flex;
 }
 
+.sp-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
 .col {
   width: calc(100% / 3);
   position: relative;
@@ -86,6 +98,10 @@ img {
 .mr-10 {
   margin-right: 10px;
 }
+.mr-20 {
+  margin-right: 20px;
+}
+
 .ml-10 {
   margin-left: 10px;
 }
@@ -94,8 +110,20 @@ img {
   margin: 0 10px;
 }
 
-.mt-50 {
-  margin-top: 50px;
+.my-50 {
+  margin: 50px 0;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.h100per {
+  height: 100%;
 }
 
 .img-top {
@@ -154,13 +182,36 @@ img {
 .fa-heart:hover {
   color: red;
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.4);
+}
+
+.fa-brands:hover {
+  color: #ff6900;
+}
+.fa-brands {
+  transition: all ease 0.5s;
 }
 
 header a:hover {
-  color: #1a7caa;
+  color: #333;
 }
 
 #logo:hover {
   transform: scale(1.1);
+}
+
+footer a:hover {
+  color: #ff6900;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1a1a1a;
+  height: 120px;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
 }
